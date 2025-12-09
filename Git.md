@@ -87,6 +87,13 @@ git commit -m “added page1”
 *If you want to go on `fixpages` branch to work there you can use command :*\
 `git checkout fixpages`
 
+_________
+***you could create and checkout to a branch with a single command like below:***
+```
+git checkout -b fixpages
+```
+_________
+
 *now with command `git branch` you can see you are in `fixtpages` branch*
 
 *now if you make change to files or create new files nothing will change on master branch.*\
